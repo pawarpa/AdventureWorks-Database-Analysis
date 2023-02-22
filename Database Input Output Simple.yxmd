@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:workshop_azuresql|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,
+	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,
+	DADABI.SalesLT.SalesOrderDetail.OrderQty,
+	DADABI.SalesLT.SalesOrderDetail.ProductID,
+	DADABI.SalesLT.SalesOrderDetail.UnitPrice,
+	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,
+	DADABI.SalesLT.SalesOrderDetail.LineTotal,
+	DADABI.SalesLT.SalesOrderDetail.rowguid,
+	DADABI.SalesLT.SalesOrderDetail.ModifiedDate 
+from DADABI.SalesLT.SalesOrderDetail</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azuresql
+Query=select DADABI.SalesLT.SalesO...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SalesOrderID" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="SalesOrderDetailID" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="OrderQty" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="Int16" />
+            <Field name="ProductID" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="Int32" />
+            <Field name="UnitPrice" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="UnitPriceDiscount" scale="4" size="21" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="LineTotal" scale="6" size="40" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="FixedDecimal" />
+            <Field name="rowguid" size="36" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="V_String" />
+            <Field name="ModifiedDate" source="File: odbc:DRIVER={ODBC Driver 18 for SQL Server};UID=pawar.pa;PWD=__EncPwd1__;DATABASE=DADABI;SERVER=dadabi-sqldbserver.database.windows.net|||select DADABI.SalesLT.SalesOrderDetail.SalesOrderID,&#xA;	DADABI.SalesLT.SalesOrderDetail.SalesOrderDetailID,&#xA;	DADABI.SalesLT.SalesOrderDetail.OrderQty,&#xA;	DADABI.SalesLT.SalesOrderDetail.ProductID,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPrice,&#xA;	DADABI.SalesLT.SalesOrderDetail.UnitPriceDiscount,&#xA;	DADABI.SalesLT.SalesOrderDetail.LineTotal,&#xA;	DADABI.SalesLT.SalesOrderDetail.rowguid,&#xA;	DADABI.SalesLT.SalesOrderDetail.ModifiedDate &#xA;from DADABI.SalesLT.SalesOrderDetail" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SalesOrderID" selected="True" />
+            <SelectField field="SalesOrderDetailID" selected="True" />
+            <SelectField field="OrderQty" selected="True" />
+            <SelectField field="ProductID" selected="True" />
+            <SelectField field="UnitPrice" selected="True" />
+            <SelectField field="UnitPriceDiscount" selected="True" />
+            <SelectField field="LineTotal" selected="True" size="38.6" />
+            <SelectField field="rowguid" selected="True" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDT" size="19" type="DateTime" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDT = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="450" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=MySQL;UID=root;PWD=__EncPwd1__|||OrderSalesDetail</File>
+          <Passwords>4DB260473E12D2B9FA659420987AE73D7AB63700282D101930416EFB837F240DEC12D</Passwords>
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="ByName" />
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=MySQL
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="678" y="6" width="84" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MySQL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=Post|||OrderSalesDetail</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=Post
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="678" y="126" width="84" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PostgreSQL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:SQLDB|||OrderSalesDetail</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:SQLDB
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="678" y="234" width="84" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Azure SQL dbo Schema</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:workshop_azure_sql|||OrderSalesDetail</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Delete</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:workshop_azure_sql
+Query=OrderSalesDetail</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="678" y="354" width="84" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Azure SQL</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Database Input Output Simple</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="5e1993da-edbb-475c-83af-a66fdc80f46a" />
+      <Telemetry>
+        <PreviousWorkflowId value="06db9e3a-c75e-4b7f-8f2c-4b2b89afedcb" />
+        <OriginWorkflowId value="06db9e3a-c75e-4b7f-8f2c-4b2b89afedcb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

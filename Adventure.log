@@ -1,0 +1,30 @@
+Reverse engineering constraints
+User Defined Type Flag
+User Defined Type NameStyle
+User Defined Type AccountNumber
+User Defined Type Name
+User Defined Type OrderNumber
+User Defined Type Phone
+Table SalesLT.Address
+Table SalesLT.Customer
+Table SalesLT.CustomerAddress
+Table SalesLT.Product
+Table SalesLT.ProductCategory
+Table SalesLT.ProductDescription
+Table SalesLT.ProductModel
+Table SalesLT.ProductModelProductDescription
+Table SalesLT.SalesOrderDetail
+Table SalesLT.SalesOrderHeader
+Retrieving index information...
+Retrieving remaining constraints...
+Getting All Table Level Constraints
+Reverse engineering table partitions
+Reverse engineering index partitions
+Updating the relationships...
+Preparing intermediate file
+Inferring primary keys
+Inferring foreign keys from indexes
+Inferring foreign keys from column names
+Updating intermediate file
+Reading intermediate file
+Reverse engineering completed
